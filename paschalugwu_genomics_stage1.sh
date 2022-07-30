@@ -22,9 +22,6 @@ sudo apt-get -y install bwa
 #Install samtools
 sudo apt-get -y install samtools
 
-#Download Chara_R1.fastq.gz
-wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R1.fastq.gz?raw=true
-
 #Download Alsen_R1_rep.fastq.gz
 wget https://github.com/josoga2/yt-dataset/blob/main/dataset/repaired/Alsen_R1_rep.fastq.gz
  
@@ -34,10 +31,8 @@ wget https://github.com/josoga2/yt-dataset/blob/main/dataset/alignment/ACBarrie.
 #Create a folder called output
 mkdir ~/output
 
-#Implement fastqc
-cd output
-mkdir QC_Report
-fastqc output/Chara_R1.fastq.gz?raw=true -o QC_Report/
+#Download and implement fastqc (Chara_R1.fastq.gz)
+wget wget wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R1.fastq.gz?raw=true -O Chara_R1.fastq.gz
 
 #Implement BWA
 ls
