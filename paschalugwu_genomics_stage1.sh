@@ -32,7 +32,7 @@ wget https://github.com/josoga2/yt-dataset/blob/main/dataset/alignment/ACBarrie.
 mkdir ~/output
 
 #Download and implement fastqc (Chara_R1.fastq.gz)
-wget wget wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R1.fastq.gz?raw=true -O Chara_R1.fastq.gz
+wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Chara_R1.fastq.gz?raw=true -O Chara_R1.fastq.gz
 
 #Implement BWA
 ls
